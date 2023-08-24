@@ -1,3 +1,40 @@
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+}
+
 body{
     background-color: white;
+}
+
+main{
+    max-width: 80%;
+}
+
+img{
+    width: 60%;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+article{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5%;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20%;
+ 
 }
